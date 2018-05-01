@@ -17,7 +17,7 @@ public class Mario extends Sprite {
 
 	// METHODS
 	public void walk(int dir) {
-		super.moveByAmount(dir, 0);
+		super.moveByAmount(3.5 * dir, 0);
 	}
 
 	public void jump() {
@@ -37,7 +37,7 @@ public class Mario extends Sprite {
 		}
 		if(isFalling)
 		{
-			super.moveByAmount(0, 3);
+			super.moveByAmount(0, 9.81);
 		}
 		
 	}
