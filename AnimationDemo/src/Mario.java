@@ -21,9 +21,9 @@ public class Mario extends Sprite {
 	}
 
 	public void jump() {
-		double velocity = -20.0;
+		double velocity = -50.0;
 		super.moveByAmount(0, velocity);
-		velocity += 0.001;
+		//velocity += 0.001;
 	}
 
 	public void act(ArrayList<Shape> obstacles) {
