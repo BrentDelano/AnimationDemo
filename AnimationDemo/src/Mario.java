@@ -37,7 +37,7 @@ public class Mario extends Sprite {
 		}
 		if(isFalling)
 		{
-			super.moveByAmount(0, 1);
+			super.moveByAmount(0, 3);
 		}
 		
 	}
